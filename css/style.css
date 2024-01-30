@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    background-image: url("../media/images/electro_background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  @font-face {
+    font-family: 'Gidrip';
+    src: url('../media/fonts/gidrip.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mermaid';
+    src: url('../media/fonts/mermaid1001.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HYWenHei 85W';
+    src: url('../media/fonts/zhcn.woff') format('woff');
+}
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 32px;
+    color: #CFC085;
+  }
+
+  .header h2{
+    position: relative;
+    top: 20px;
+    left: 13px;
+    text-wrap: nowrap;
+    color: #CFC085;
+  }
+
+.header{
+    display: block;
+    margin-bottom: 50px;
+}
+
+h1{
+    display: inline;
+    font-family: 'Gidrip';
+    font-size: 40px;
+    margin: 10px
+}
+
+#vision-icon{
+    margin: 20px;
+}
+
+h2{
+    font-family: 'Mermaid';
+    margin: 10px;
+}
+
+#char-pic{
+    float: right;
+    max-height: 100%;
+    margin-left: auto;
+}
+
+@media (max-width: 1130px) {
+    #char-pic {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      max-width: 100%;
+    }
+    .header{
+        display: inline-block;
+        margin-top: -15px;
+}
+    table{
+        margin-top: -50px;
+        margin-right: 15px;
+        min-width: 97%;
+    }
+    .list p{
+        max-height: 115px;
+        overflow-y: scroll;
+    }
+}
+
+table{
+    display: block;
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+th, td {
+    vertical-align: middle;
+    padding: 15px;
+    background-color: rgb(0, 0, 0, 0.4);
+    border: 3px solid rgb(255, 255, 255, 0.2);
+    font-family: 'HYWenHei 85W';
+    width: inherit;
+}
+
+th{
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255, 0.8);
+}
+
+td {
+    font-size: 14px;
+    color: rgb(255, 255, 255, 0.6);
+    overflow
+}
+
+.abilities {
+    margin-left: -20px;
+    list-style-type: square;
+}
+
+.abilities li {
+    padding: 3px;
+    list-style-type: square;
+}
+
+.list {
+    font-family: 'HYWenHei 85W';
+    margin-left: 10px;
+}
+
+.list h3{
+    color: rgb(255, 255, 255, 0.9);
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: 'HYWenHei 85W';
+}
+
+.list li{
+    color: rgb(255, 255, 255, 0.7);
+    list-style-type: none;
+    height: 130px;
+    margin-top: 15px;
+    margin-left: -30px;
+    font-family: 'HYWenHei 85W';
+}
+
+.list img{
+    float: left;
+    height: 140px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.list p{
+    font-family: 'Montserrat';
+    max-width: 70%;
+    max-height: 115px;
+    font-size: 14.5px;
+    overflow-y: auto;
+    padding: 2px;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+#Tighnari{
+    background-image: url(../media/images/dew-kissed.png);
+    background-size: contain;
+}
+
+#Collei{
+    background-image: url(../media/images/good_virtue.png);
+    background-size: contain;
+}
+
+#Kaveh{
+    background-image: url(../media/images/doomed_court.png);
+    background-size: contain;
+}
+
+#Alhaitham{
+    background-image: url(../media/images/enlightenment.png);
+    background-size: contain;
+}
+
+#Lisa{
+    background-image: url(../media/images/tempus_fugit.png);
+    background-size: contain;
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#quote{
+    font-family: 'Julee';
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 90%;
+    color: white;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(175, 25, 209, 0.1);
+    background-color: rgba(69, 0, 101, 0.7);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 90%;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255, 0.5);
+}
